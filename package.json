@@ -1,0 +1,21 @@
+{
+  "name": "lmat",
+  "version": "1.0.1",
+  "description": "lvyou mobile app toolkit",
+  "main": "index.js",
+  "bin": {
+    "lmat": "bin/lmat.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yanbin01@baidu.com",
+  "license": "ISC",
+  "dependencies": {
+    "fis-parser-less": "^0.1.3",
+    "fis3": "^3.0.6",
+    "fis3-hook-module": "^1.1.1",
+    "liftoff": "^2.1.0",
+    "minimist": "^1.1.1"
+  }
+}
