@@ -5,6 +5,7 @@ fis.require.prefixes.unshift('lmat');
 fis.cli.name = 'lmat';
 fis.cli.info = require('./package.json');
 
+/*
 fis.match('*', {
     release: '/static/$0' // 所有资源发布时产出到 /static 目录下
 });
@@ -37,7 +38,6 @@ fis.match('*.png', {
     optimizer: fis.plugin('png-compressor')
 });
 
-/*
 fis.match('widget/*.{php,js,css}', {
     isMod: true
 });
